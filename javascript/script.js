@@ -80,6 +80,8 @@ function verificarpalindromo(str) {
 
     if (str === str.split("").reverse().join("")) {
         console.log("true")
+    }else{
+        console.log("false")
     }
 }
 verificarpalindromo("ASA")
